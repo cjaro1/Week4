@@ -1,0 +1,94 @@
+/*Color Palette
+#340068 Purpleish
+#FF6978 Coral
+#FFFCF9 Off White
+#B1EDE8 light SeaFoam
+#6D435A Mute Burgundy
+*/
+/*Global stylesheet
+------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+a {
+  color: #6D435A;
+	padding:10px;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-width {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+.vertical-word {
+  writing-mode: vertical-rl;
+}
+
+/*Header and footer
+----------------------*/
+header, footer {
+  background-color:#280D6A;
+  color: #FFFCF9;
+}
+/* header */
+.profile-img {
+  border-radius: 50%;
+	margin-right: 15px;
+}
+
+header h1, header h2 {
+  color: #FFFCF9;
+  margin: 0;
+}
+/*footer*/
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 20px
+  display: inline-block;
+}
+
+/*Work Experience
+----------------------*/
+.work {
+  background-color: #FF6978;
+}
+
+/*Education
+----------------------*/
+.education {
+  background-color: #B1EDE8
+}
